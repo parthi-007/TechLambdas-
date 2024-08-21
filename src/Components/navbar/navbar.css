@@ -1,0 +1,45 @@
+.navbar {
+    border-bottom: 1px solid #DADADA;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 44px 19px 29px;
+    box-sizing: border-box;
+}
+
+.header .purchase {
+   
+    font-weight: 650;
+    font-size: 20px;
+    color: #0038FF;
+}
+
+.navbar .icon-notification {
+    width: 20px;
+    height: 20px;
+}
+
+.header {
+    border-bottom: 1px solid #DADADA;
+    background: #FFFFFF;
+    margin-bottom: 43px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 43.9px 19px 29px;
+    box-sizing: border-box;
+  }
+
+  .user-account {
+    margin: 2.7px 0 7.4px 0;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  .icon-notification {
+    width: 20px;
+    height: 20px;
+  }

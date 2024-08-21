@@ -32,15 +32,17 @@ button {
 }
 
 .login-right form button {
-  background-color: #0066ff;
+  background-color: #0038FF;
   color: white;
   margin-top: 40px;
 }
 
 .login-right h2 {
   font-size: 24px;
-  font-weight: 600;
-  color: #0066ff;
+  font-weight: 500;
+  color: #0038FF;
+  font-family: 'Gill Sans MT',;
+
 }
 
 .login-right h3 {
@@ -48,9 +50,10 @@ button {
   font-weight: 400;
 }
 
-.header-txt{
-  
+.header-txt h2{
+  margin-bottom: -15px;
 }
+
 .login-form {
   /* border: 2px solid; */
   padding: 10px;
@@ -86,7 +89,7 @@ button {
 }
 
 .img-txt h1 span {
-  color: #0066ff;
+  color: #0038FF;
   font-family: "Open Sans", sans-serif;
   font-size: 28.5px;
   font-weight: 600;
@@ -96,11 +99,40 @@ button {
 
 .img-txt {
   margin-top: -52px;
-  /* margin-left: 10px; */
+  margin-left: 10px;
 }
 
 .img-txt img {
-  margin-right: 20px;
+  margin-left: 290px;
   width: 120px;
   height: 85px;
 }
+
+.error-msg{
+  color: red;
+  font-weight: 400;
+  font-size: 14px;
+  /* margin-left: 200px; */
+  /* margin: 5px; */
+}
+
+
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-container input {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
